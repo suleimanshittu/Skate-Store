@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --mainColor: rgb(255, 0, 0);
+  --gray: #f2f2f2;
+  --white: #fff;
+  --black: #191919;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+header {
+  height: 50px;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  flex: 1;
+  font-family: cursive;
+}
+
+.logo h1 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.logo h1 span {
+  color: green;
+  text-transform: uppercase;
+}
+
+.navbar {
+  flex: 2;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar li a {
+  font-weight: bold;
+  font-family: cursive;
+  padding: 10px 15px;
+  transition: all ease-in-out 0.6s;
+}
+
+.navbar li a:hover,
+.active {
+  background-color: green;
+  color: white;
+}
+main {
+  min-height: 100vh;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  width: 90%;
+  background-color: var(--white);
+}
+
+footer {
+  height: 50vh;
+  width: 100%;
+  background-color: var(--black);
+  color: var(--white);
+}
+.footdiv {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 60px;
+}
+.bob h4 {
+  border-bottom: 3px solid white;
+  width: 80px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.bob2 h4 {
+  border-bottom: 3px solid white;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: bold;
+}
+.bob2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.get {
+  padding-top: 40px;
+  padding-left: 20px;
+}
+.bob3 h4 {
+  border-bottom: 3px solid white;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: bold;
+}
+.bott {
+  background-color: transparent;
+  border: 2px solid white;
+  height: 5vh;
+  color: var(--white);
+}
+.line {
+  border-right: 2px solid white;
+}
+.mat {
+  border-top: 2px solid white;
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7px;
+}
+.mat p {
+  padding-left: 75px;
+}
+.bob {
+  padding-right: 20px;
+}
+.bob3 {
+  padding-right: 20px;
+}
+.bob2 {
+  padding-right: 20px;
+}
+.mad {
+  padding-right: 160px;
+  display: flex;
+}
+.fa-facebook {
+  padding-right: 10px;
+}
+.fa-instagram {
+  padding-left: 10px;
+}
